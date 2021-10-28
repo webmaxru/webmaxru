@@ -1,41 +1,29 @@
-name: daily-metrics
-
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
 on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: "0 0 * * *"
-
-jobs:   
+  push: {branches: ["master", "main"]}
+jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@v3.14
+      - uses: lowlighter/metrics@latest
         with:
-          # You'll need to setup a personal token in your secrets.
+          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.METRICS_TOKEN }}
-          committer_branch: github-metrics
-          committer_message: "build: update `${filename}`"
 
           # Options
           user: webmaxru
           template: classic
-          base: header, activity, community
+          base: header, activity, community, repositories, metadata
           config_timezone: Europe/Oslo
-
-          # Language plugin
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-
-          # Achievement plugin
           plugin_achievements: yes
-          plugin_achievements_threshold: B
-
-          # Notable contributions
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
           plugin_notable: yes
-          plugin_notable_filter: stars:>150
-          plugin_notable_repositories: yes
+          plugin_stars: yes
+          plugin_stars_limit: 4
