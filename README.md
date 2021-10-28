@@ -41,3 +41,5 @@ Maxim Salnikov is an Oslo-based cloud and tech community geek. He is a webdev ma
 - 💬 Ask me about Cloud & Progressive Web Apps
 - 📫 How to reach me: https://twitter.com/webmaxru
 - 😄 Pronouns: he/him 
+
+![Metrics](https://raw.githubusercontent.com/webmaxru/webmaxru/github-metrics/github-metrics.svg)
