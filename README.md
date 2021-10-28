@@ -42,4 +42,4 @@ Maxim Salnikov is an Oslo-based cloud and tech community geek. He is a webdev ma
 - 📫 How to reach me: https://twitter.com/webmaxru
 - 😄 Pronouns: he/him 
 
-![Metrics](https://raw.githubusercontent.com/webmaxru/webmaxru/github-metrics/github-metrics.svg)
+![Metrics](https://metrics.lecoq.io/webmaxru?template=classic&achievements=1&notable=1&stars=1&stars.limit=4&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&notable.repositories=false&config.timezone=Europe%2FOslo)
