@@ -1,15 +1,26 @@
 # I'm Maxim Salnikov
 
 <div align="left">
+    <img
+      src="https://img.shields.io/static/v1?style=flat-square&color=ffffff&&labelColor=ffffff&label=Followers:&message=%20"
+      alt="Followers"
+    />
+  
   <a href="https://twitter.com/webmaxru">
     <img
-      src="https://img.shields.io/twitter/follow/webmaxru?label=Twitter&logo=twitter&style=flat-square&color=1da1f2&logoColor=ffffff"
+      src="https://img.shields.io/twitter/follow/webmaxru?label=Twitter&logo=twitter&style=flat-square&color=0072b1&logoColor=ffffff"
       alt="Twitter"
     />
   </a>
   <a href="https://linkedin.com/in/webmax">
     <img
-      src="https://img.shields.io/static/v1?logo=linkedin&style=flat-square&color=0072b1&label=LinkedIn&message=%E2%98%86"
+      src="https://img.shields.io/static/v1?logo=linkedin&style=flat-square&color=0072b1&label=LinkedIn&message=18K"
+      alt="LinkedIn"
+    />
+  </a>
+    <a href="https://github.com/webmax">
+    <img
+      src="https://img.shields.io/github/followers/webmaxru?logo=github&style=flat-square&color=0072b1&label=GitHub"
       alt="LinkedIn"
     />
   </a>
